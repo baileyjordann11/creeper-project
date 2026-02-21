@@ -9,11 +9,11 @@
 //  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 // ============================================================
 
-const MODEL_URL = "https://teachablemachine.withgoogle.com/models/43prg9ZF6/";
+const MODEL_URL = "https://teachablemachine.withgoogle.com/models/02W7zN7ag/";
 
 // ─── Teachable Machine State ────────────────────────────────
 let tmModel, tmWebcam;
-let currentGesture = "none"; // "thumbsup" | "thumbsdown" | "none"
+let currentGesture = "none"; // "thumbsup" | "peacesign" | "none"
 let labelText = "Loading model...";
 
 async function initTM() {
